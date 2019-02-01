@@ -285,6 +285,11 @@
 
   /* Skill bars */
 
+  .skills {
+    background: url("https://lh3.googleusercontent.com/xwyuwsgriXeju9BrxLSKM7gbtZIumjs9pdD9Aubmye1lkoDQLvjBk0kUq0ECZwy_wJUCHY8yBSW0REhYAVmr8nMn4QZOHkXLc9E_fKvxqGxlxW6JaxXMrQRwkZT4UeH-aV3C2z3FJHGLfgBTafbGlG-CuQCFeWRh0YdQ3sSXrnszx3gLJyuq6SFNlT6UaZN_rrIySmTbsNKw-jrKnRRkDEf37Y2NjA_OfcxvDd8wg9aPoNMBS-UdYbtfDJGqj98KWG56YojXF6JklRHTk7EsDmE0l4s5L83YALRJZ8cuunXU6Q-MqFcHZqGKvDtVYgmfaL0yXdqErXZkbhjC81JA0gWk11vIxQRo6PsovIqHJDPt_piNJ9aynBAc0ZHKWyHgI3zVKdlMfMScSRZRX2FB7nZr_hvi2Y8rK9Brgcaye_Mc22NzuBikySsTwFXTzdsEKztHJsxymPgCu8JSk4PueYzN33lzHqDv6DH_pW0IwT8xiFTCSse5FWzBCJl85pTvWiqu1TKVtFAxUOmdimwQj1ZfyTArD5IE_Uv-PvkTEmnhfrBkWJOEhVXgZwrGtqYAswhLqG4wfqLdtRyBEXMdWOsPb75lBTu94uEKOqgzqEghlu6WGOJ0KnLraT2VJxqPsbts0jxsyoe5ocKvshaak-hm=w2244-h1498-no") no-repeat;
+    background-size: cover;
+  }
+
 .container-skillbar {
     width:100%;
     padding-top:30px;
@@ -367,6 +372,11 @@
 
   /* portfolio section */
 
+  /* .projects {
+    background: url("") no-repeat;
+    background-size: cover;
+  } */
+
   .content {
     margin-left: auto;
     margin-right: auto;
@@ -381,6 +391,11 @@
 
   .content-slide img {
     width: 70%;
+  }
+
+  .border {
+    border-color: black;
+    border: solid 1px;
   }
 
   .fp-controlArrow.fp-next {
