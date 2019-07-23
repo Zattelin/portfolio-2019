@@ -62,7 +62,7 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['home', 'portfolio', 'UXUI', 'skills', 'contact'],
+    navigationTooltips: ['HOME', 'WEB DESIGN', 'GRAPHIC DESIGN', 'SKILLS', 'CONTACT'],
     anchors: ['home', 'portfolio', 'UXUI', 'skills', 'contact'],
     menu: '#myMenu',
     fitToSection: false,
