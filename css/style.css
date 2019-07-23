@@ -626,7 +626,7 @@
     animation: 1s blink step-end infinite;
   }
 
-@keyframes "blink" {
+/* @keyframes "blink" {
   from, to {
     color: transparent;
   }
@@ -669,7 +669,7 @@
   50% {
     color: white;
   }
-}
+} */
 
 .success {
   padding: 1em;
@@ -1082,7 +1082,7 @@ img.mfp-img {
   min-height: 30px;
   z-index: 9;
 }
-a.lightbox::before {
+.lightbox::before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1097,10 +1097,10 @@ a.lightbox::before {
     z-index: 9;
     transition: 0.4s;
 }
-a.lightbox:hover:before {
+.lightbox:hover:before {
     opacity: 1;
 }
-a:after {
+.hoverbox:after {
     position: absolute;
     top: 0;
     left: 0;
@@ -1112,6 +1112,6 @@ a:after {
     content: '';
     transition: 0.4s;
 }
-a:hover:after {
+.hoverbox:hover:after {
     opacity: 1;
 }
