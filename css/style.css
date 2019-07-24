@@ -112,9 +112,9 @@
   }
 
   .header-links {
-   position: fixed;
-  width: 100%;
-  z-index: 500;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
   }
 
   .header-links li {
@@ -202,6 +202,7 @@
   /* main header section */
 
   .opaque-bg {
+    background-color: rgba(0, 0, 0, 0.608);
     margin-left: auto;
     margin-right: auto;
     max-width: 380px;
@@ -209,7 +210,7 @@
   }
 
   .aboutme {
-    background: url("https://lh3.googleusercontent.com/X9ARVThDt1wi-hKhrKNijGgbg-I_3uC5QEvj-z1DZnBMxELjo1nBeRbKvrVQbiXzKjyfWUIWWTEIAgpVNMhivl-C3NXAXoF34Jt8mzNqqQ6cc2z35u6XA9gyMNuUY2gnhw3kfrzsFE7CwMC0z2PHSVGTl13FvABlXq-JW7TLHwPnSpjk9xiBl2d1MVwprhyKG1xjfOUpSFbo_Y2Me0Zq_GmLJUGJOtdiBeD5v7YMC-NQ12kBwv9NUwUw-HQ_j19NEhMgIcAAVzp_AZIe6ri2S3yvnFKil0DtiNEth99gItuQIEdKKehu8mZsp-AUmVrIFz1_5IaYVLe-SWxyaw5m7PtNWAMbn41sYKnpzllPyMBVWpRxL5DtrKRBBqFfLw-8NQCUZXxF8i9M6NRf3QFprx5_mV283u72kdkKktjTfF2NmU3cEmxRn6Wz6nHVu9mnmB7zSW0fdq4wX-UZqH7gqdhf0_wba04sTgf7QQ8IA3dUVFu74_vRk0VSLHCeqChJrkuwguN9t41sDo36QYhklhWt7jX-hFrBIj8o7_61ye3ddwvibfglMRzmGc2h8WtyeaNzSnBYXUhcICLErP24nC7Qkrwi5eNR7jDof4P0ZuDgwiDWJGvsfONhpuhr4h_FWNVWJuDFhkcJF2Brli9Vl2lV=w2448-h1632-no") no-repeat;
+    background: url("https://lh3.googleusercontent.com/JxlHP8Q_nv5V-pPtGWgND00wEc65stQVUqTeqw7W53dP_T3fLYUS9_lRPe9YkKJrG2AabGD3Wa_mwmqEbfG7pPZWW5oV6bs0igdbMcC7wp1Ry5EceOpRdrEItva0XoXLGOHamPvUGuYlTy-jtmim-O6G9Y8YOCEUrnSf8fzyG7EpIagk8PHLRIi1pU5p4asaZBmopcxzOC4NpUdKXXqOsQgZTVovnEL5kRN0l6-rmRGjmWCUbkqHo0VIziLcUWbjMop7UlxjO3GnPLIyOq5BrNANPzBZFzIu_fcCldcpUSEJDooW4N7ZEt_1AspuLDfTI0BEm6b6C7h952JAzXPwWbQIglurkrkudej2e2CxN9ErANjyfR2Y_2uO041ld54F-ao-ae8wyEXRVaQOl-uXc9zjl-V3CULZVpU8AdvXv1QL_vnHsHmxoGYIDDCURQrojOKk1rDNzNXAh9c5545fRkdaNeJzhG4j46M1dGfJtZG1mh8kCphSithBy1azEYwoycGi0r1r3fXseBR9QF-WnnzWINozO6r49es7PQ-WH-R5y4pUBEnmTj7_QWPZaQ6u64MQv1vKkg1ATB1lOHTC3WAWMOxYA4WyGTjwbDrIIW8JH9ADh8KBCu6g7GLnJQ2-OqdSdkKrsd1YVpoltntVpIDaABa2zSk=w2258-h1596-no") no-repeat;
     background-size: cover;
   }
 
@@ -1061,10 +1062,10 @@ img.mfp-img {
   max-height: 200px;
   object-fit: cover;
 }
-.gallery_container .col-sm-3, .video_container .col-sm-3{
+.gallery_container .col-sm-3, .gallery_container2 .col-sm-3, .video_container .col-sm-3{
   margin: 10px 0;
 }
-.gallery_container, .video_container{
+.gallery_container .gallery_container2, .video_container{
   margin: 10px 0;
   display: inline-block;
   width: 100%;

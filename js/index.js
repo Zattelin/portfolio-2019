@@ -62,8 +62,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['HOME', 'WEB DESIGN', 'GRAPHIC DESIGN', 'SKILLS', 'CONTACT'],
-    anchors: ['home', 'portfolio', 'UXUI', 'skills', 'contact'],
+    navigationTooltips: ['HOME', 'WEB DESIGN', 'UX/UI', 'GRAPHIC DESIGN', 'SKILLS', 'CONTACT'],
+    anchors: ['home', 'portfolio', 'UXUI', 'graphicDesign', 'skills', 'contact'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -80,7 +80,7 @@ $(document).ready(function() {
         $('.header-links a').each(function(){
           $(this).css('color','white')
         });
-        $('.header-links').css("background-color","transparent");
+        $('.header-links').css("background-color","rgba(0, 0, 0, 0.750)");
       }
 
       else if(index!=1){
@@ -108,7 +108,6 @@ $(document).ready(function() {
   $(document).on('click', '#moveDown', function(){
     $.fn.fullpage.moveSectionDown();
   });
-
   // fullpage.js link navigation
   $(document).on('click', '#projects', function(){
     $.fn.fullpage.moveTo(2);
@@ -118,12 +117,16 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(3);
   });
 
-  $(document).on('click', '#skills', function(){
+  $(document).on('click', '#graphicDesign', function(){
     $.fn.fullpage.moveTo(4);
   });
 
-  $(document).on('click', '#contact', function(){
+  $(document).on('click', '#skills', function(){
     $.fn.fullpage.moveTo(5);
+  });
+
+  $(document).on('click', '#contact', function(){
+    $.fn.fullpage.moveTo(6);
   });
 
 
@@ -178,6 +181,18 @@ $(document).ready(function() {
         }
   });
 
+
+  $('.gallery_container2').magnificPopup({
+    delegate: 'a',
+  type: 'image',
+  mainClass: 'mfp-fade',
+  removalDelay: 160,
+  preloader: false,
+  fixedContentPos: false,
+  gallery: {
+        enabled:true
+      }
+});
     }
   };
   popup.init($);
