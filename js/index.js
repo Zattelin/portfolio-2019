@@ -62,8 +62,8 @@ $(document).ready(function() {
     scrollBar: true,
     responsiveWidth: 400,
     navigation: true,
-    navigationTooltips: ['HOME', 'WEB DESIGN', 'UX/UI', 'GRAPHIC DESIGN', 'SKILLS', 'CONTACT'],
-    anchors: ['home', 'portfolio', 'UXUI', 'graphicDesign', 'skills', 'contact'],
+    navigationTooltips: ['HOME', 'WEB DESIGN', 'GRAPHIC DESIGN', 'ART', 'SKILLS', 'CONTACT'],
+    anchors: ['home', 'webDesign', 'graphicDesign', 'art', 'skills', 'contact'],
     menu: '#myMenu',
     fitToSection: false,
 
@@ -109,18 +109,18 @@ $(document).ready(function() {
     $.fn.fullpage.moveSectionDown();
   });
   // fullpage.js link navigation
-  $(document).on('click', '#projects', function(){
+  $(document).on('click', '#webDesign', function(){
     $.fn.fullpage.moveTo(2);
   });
 
-  $(document).on('click', '#UXUI', function(){
+  $(document).on('click', '#graphicDesign', function(){
     $.fn.fullpage.moveTo(3);
   });
 
-  $(document).on('click', '#graphicDesign', function(){
+  $(document).on('click', '#art', function(){
     $.fn.fullpage.moveTo(4);
   });
-
+	
   $(document).on('click', '#skills', function(){
     $.fn.fullpage.moveTo(5);
   });
